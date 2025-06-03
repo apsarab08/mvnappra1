@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>Maven-Jenkin-Pipeline</artifactId>
+  <artifactId>mvnappra1</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
   
   
-  <name>Maven-Jenkin-Pipeline</name>
+  <name>mvnappra1</name>
   <url>http://maven.apache.org</url>
   
   <!-- Properties: Customize Java version or plugin versions -->
