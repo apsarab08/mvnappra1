@@ -2,11 +2,19 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.example</groupId>
-  <artifactId>mvnappra1</artifactId>
+  <artifactId>Maven-Jenkin-Pipeline</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>mvnappra1</name>
+  
+  
+  <name>Maven-Jenkin-Pipeline</name>
   <url>http://maven.apache.org</url>
+  
+  <!-- Properties: Customize Java version or plugin versions -->
+<properties>
+<maven.compiler.source>11</maven.compiler.source>
+<maven.compiler.target>11</maven.compiler.target>
+</properties>
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -15,7 +23,9 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <build>
+  
+  <!-- Build: Configuring plugins and build settings -->
+<build>
 <plugins>
 <!-- Example: Maven Compiler Plugin to compile Java code -->
 <plugin>
